@@ -648,6 +648,10 @@ footer .logo-text {
     margin-bottom: 4px; 
 }
 
+.modal-form-container {
+    position: relative;
+}
+
 
 
 .modal-form-input {
