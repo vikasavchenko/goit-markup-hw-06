@@ -639,7 +639,7 @@ footer .logo-text {
     margin-bottom: 8px;
 }
 
-.modal-form-labal {
+.modal-form-label {
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -649,9 +649,6 @@ footer .logo-text {
 }
 
 
-.modal-form-container {
-position: relative;
-}
 
 .modal-form-input {
     width: 100%;
@@ -699,7 +696,7 @@ position: relative;
 
 .modal-form-textarea:focus {
     border-color: var(--iris);
-    
+
 }
 
 /* Project Page */
