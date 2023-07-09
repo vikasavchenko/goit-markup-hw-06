@@ -591,23 +591,36 @@
             </div>
           </div>
 
-          <div class="modal-form-wrap">
-            <label for="user-comment" class="modal-form-label">
-              Comment
-            </label>
-              <textarea
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-                class="modal-form-textarea"
-              ></textarea>
+          <div class="modal-form-wrap form-field-comment">
+            <label for="user-comment" class="modal-form-label"> Comment </label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="modal-form-textarea"
+            ></textarea>
           </div>
 
-          <label for="checkbox">
-            I accept the terms and conditions of the
-            <span> Privacy Policy </span>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-          </label>
+          <div class="modal-form-wrap form-field-checkbox">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              class="modal-form-checkbox visually-hidden"
+            />
+            <label for="user-privacy" class="modal-form-label">
+              <span class="user-privacy-text">
+                <svg class="modal-icon checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+                I accept the terms and conditions of the
+                <a href="" class="privacy-link">
+                  Privacy Policy
+                </a>
+              </span>
+            </label>
+          </div>
 
           <button type="submit" class="modal-send">Submit</button>
         </form>

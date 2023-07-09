@@ -7,7 +7,7 @@
     --light-slate: #8E8F99;
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
-    --navyblue-modal: rgba(46, 47, 66, 0.4);
+    --navyblue-modal: #2E2F4266;
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
@@ -155,7 +155,7 @@ footer .logo-text {
     text-decoration: none;
 }
 
-.nav-item a:hover, 
+.nav-item a:hover,
 .nav-item a:focus,
 .address-item a:hover,
 .address-item a:focus {
@@ -503,7 +503,7 @@ footer .logo-text {
 }
 
 .footer-form-input {
-    width: 264px; 
+    width: 264px;
     height: 40px;
     border: 1px solid var(--white);
     background-color: transparent;
@@ -511,8 +511,8 @@ footer .logo-text {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
-    border-radius: 4px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
     color: var(--white);
 }
 
@@ -539,7 +539,7 @@ footer .logo-text {
 }
 
 .footer-form-icon {
-    margin-left: 16px; 
+    margin-left: 16px;
     fill: var(--white);
 }
 
@@ -632,7 +632,7 @@ footer .logo-text {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--navyblue);
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
 }
 
 .modal-form-wrap {
@@ -645,12 +645,11 @@ footer .logo-text {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light-slate);
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
 }
 
 .modal-form-container {
     position: relative;
-    margin-bottom: 16px;
 }
 
 
@@ -660,7 +659,7 @@ footer .logo-text {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    background-color: transparent; 
+    background-color: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -671,7 +670,7 @@ footer .logo-text {
     border-color: var(--iris);
 }
 
-.modal-form-input:focus + .modal-form-icon {
+.modal-form-input:focus+.modal-form-icon {
     fill: var(--iris);
 }
 
@@ -683,13 +682,17 @@ footer .logo-text {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-field-comment {
+    margin-bottom: 16px;
+}
+
 .modal-form-textarea {
     width: 100%;
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4); 
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
@@ -703,6 +706,26 @@ footer .logo-text {
     border-color: var(--iris);
 }
 
+.form-field-checkbox {
+    margin-bottom: 24px;
+}
+
+.user-privacy-text {
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--navyblue-modal);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.user-privacy-text .privacy-link {
+    color: var(--iris);
+}
+
 .modal-send {
     display: block;
     min-width: 169px;
@@ -713,12 +736,12 @@ footer .logo-text {
     color: var(--white);
     cursor: pointer;
     background-color: var(--iris);
-    border: none; 
+    border: none;
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Project Page */
