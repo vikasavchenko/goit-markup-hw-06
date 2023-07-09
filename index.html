@@ -514,6 +514,7 @@
                 name="email"
                 placeholder="E-mail"
                 class="footer-form-input"
+                required
               />
             </label>
 
@@ -554,6 +555,7 @@
                 type="text"
                 name="user-name"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
@@ -566,9 +568,10 @@
             <div class="modal-form-container">
               <input
                 id="user-phone"
-                type="text"
+                type="tel"
                 name="user-phone"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -581,9 +584,10 @@
             <div class="modal-form-container">
               <input
                 id="user-email"
-                type="text"
+                type="email"
                 name="user-email"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -595,9 +599,11 @@
             <label for="user-comment" class="modal-form-label"> Comment </label>
             <textarea
               id="user-comment"
+              type="text"
               name="user-comment"
               placeholder="Text input"
               class="modal-form-textarea"
+              required
             ></textarea>
           </div>
 
@@ -608,6 +614,7 @@
               name="user-privacy"
               value="true"
               class="modal-form-checkbox visually-hidden"
+              required
             />
             <label for="user-privacy" class="modal-form-label">
               <span class="fake-icon-checkbox">
@@ -621,7 +628,7 @@
             </label>
           </div>
 
-          <button type="submit" class="modal-send">Submit</button>
+          <button type="submit" class="modal-send">Sent</button>
         </form>
       </div>
     </div>
