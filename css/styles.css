@@ -710,7 +710,7 @@ footer .logo-text {
     margin-bottom: 24px;
 }
 
-.user-privacy-text {
+.fake-icon-checkbox {
     width: 16px;
     height: 16px;
     border: 1px solid var(--navyblue-modal);
@@ -722,7 +722,13 @@ footer .logo-text {
     fill: transparent;
 }
 
-.user-privacy-text .privacy-link {
+.modal-form-checkbox:checked + label .fake-icon-checkbox  {
+    background-color: var(--ocean);
+    border: none;
+    fill: var(--cloud);
+}
+
+.privacy-link {
     color: var(--iris);
 }
 
