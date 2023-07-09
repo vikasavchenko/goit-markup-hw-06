@@ -488,16 +488,16 @@ footer .logo-text {
 
 /* Footer form */
 
-.footer-form-text {
-    margin-bottom: 16px;
-    font-weight: 500;
+.footer-form-title {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
+    margin-bottom: 16px;
 }
 
-.footer-form {
+.footer-form-container {
     display: flex;
     gap: 24px;
 }
