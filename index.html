@@ -503,28 +503,25 @@
           </ul>
 
           <div class="footer-form-wrapper">
-            <p class="footer-form-text">
-              Subscribe
-            </p>
-            <form class="form-footer">
-               <label for="footer-form-field">
-                <input 
-                type="name" 
-                name="email" 
-                placeholder="E-mail" 
-                class="footer-form-input">
-               </label>
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-form">
+              <label for="footer-form-field">
+                <input
+                  type="name"
+                  name="email"
+                  placeholder="E-mail"
+                  class="footer-form-input"
+                />
+              </label>
 
-               <button type="submit" class="footer-form-btn">
+              <button type="submit" class="footer-form-btn">
                 Subscribe
                 <svg class="footer-form-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-subscribe"></use>
                 </svg>
               </button>
-
             </form>
           </div>
-
         </div>
       </div>
     </footer>
@@ -543,78 +540,49 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="form-text">
-          Leave your contacts and we will call you back
-        </p>
-        <form>
-          <div> class="modal-list list">
-           
-              <label></label>
-                <!-- <p>
-                  Name
-                </p>
-                <input  це не р, а лейбл-->
-                type="text" 
-                name="name"
-                />
-              
-            </div>
-            
+
+        <p class="form-text">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <div class="modal-form-wrap">
+            <label for="name">
+              <p>Name</p>
+              <input type="text" id="name" name="name" />
+            </label>
+          </div>
 
           <div class="modal-item">
-              <label form="username"></label>
-                <p>
-                  Phone
-                </p>
-                <input 
-                type="text" 
-                name="phone"
-                />
-              
-            </div>
+            <label for="phone">
+              <p>Phone</p>
+              <input type="text" id="phone" name="phone" />
+            </label>
+          </div>
 
-            <div> class="modal-item">
-              <label></label>
-                <p>
-                  Email
-                </p>
-                <input 
-                type="text" 
-                name="email"
-                />
-              
-            </div>
+          <div class="modal-item">
+            <label for="email">
+              <p>Email</p>
+              <input type="text" id="email" name="email" />
+            </label>
+          </div>
 
-            <div> class="modal-item">
-              <label></label>
-                <p>
-                  Comment
-                </p>
-                <input 
-                type="text" 
-                name="comment"
-                placeholder="Text input"
-                />
-              
-            </div>
+          <div class="modal-item">
+            <label for="comment">
+              <p>Comment</p>
+              <input type="text" id="comment" name="comment" placeholder="Text input" />
+            </label>
+          </div>
 
-            
-              <label></label>
-                  <input 
-                type="checkbox" 
-                name="checkbox"
-                />
-                <p>
-                  I accept the terms and conditions of the 
-                  <span>
-                    Privacy Policy
-                  </span>
-                </p>
-              
-            </class=>
-            
-          
-          <button type="submit" class="modal-send"></button>
+          <label for="checkbox">
+            <p>
+              I accept the terms and conditions of the
+              <span> Privacy Policy </span>
+            </p>
+            <input type="checkbox" id="checkbox" name="checkbox" />
+          </label>
+
+          <button type="submit" class="modal-send">
+            Submit
+          </button>
         </form>
       </div>
     </div>
